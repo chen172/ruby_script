@@ -3,6 +3,6 @@ replace ```bundler```, install gems from ```Gemfile``` or ```Gemfile.checksum```
 
 # Usage:
 ```
-ruby ruby_gem_install Gemfile.checksum
-ruby ruby_gem_install Gemfile
+ruby install_gem.rb Gemfile.checksum
+ruby install_gem.rb Gemfile
 ```
